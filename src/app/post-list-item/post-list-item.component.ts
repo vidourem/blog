@@ -18,12 +18,10 @@ export class PostListItemComponent implements OnInit {
 
   loveIt(){
     this.postLoveIts+=1;
-    console.log(this.postLoveIts)
   }
 
   noLoveIt(){
     this.postLoveIts-=1;
-    console.log(this.postLoveIts)
   }
 
   postVert(){
